@@ -5,11 +5,10 @@ title: "All Seminars"
 
 # All Seminars
 
-<ul>
+{% assign curDate = site.time | date: '%s' %}
 {% for post in site.posts %}
-  <li>
-    <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
+    {% assign postStartDate = post.date | date: '%s' %}
+    {% if postStartDate >= curDate %}
+        Post datas here
+    {% endif %}
 {% endfor %}
-</ul>
