@@ -6,7 +6,7 @@ title: "Seminar Series"
 # Upcoming Seminars
 
 <ul>
-{% assign today = site.time %}
+{% assign today = site.date %}
 {% assign upcoming = site.posts | where_exp: "post", "post.eventdate > today" | sort: "date" %}
 {% for post in upcoming %}
   <li>
