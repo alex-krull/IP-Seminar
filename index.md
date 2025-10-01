@@ -7,7 +7,7 @@ title: "Seminar Series"
 
 <ul>
 {% assign today = site.time %}
-{% assign upcoming = site.posts | where_exp: "post", "post.date > today" | sort: "date" %}
+{% assign upcoming = site.posts | where_exp: "post", "post.date > today" | sort: "date" | reverse %}
 {% for post in upcoming %}
   <li>
     <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
