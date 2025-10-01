@@ -15,6 +15,7 @@ title: "Seminar Series"
   </li>
 {% endfor %}
 </ul>
+  
 # Past Seminars
 
 <ul>
