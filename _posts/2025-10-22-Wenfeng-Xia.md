@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Wenfeng Xia (KCL)"
-date: 2024-10-22
+date: 2025-10-01
 eventdate: 2025-09-25
 speaker: "Wenfeng Xia (KCL)"
 ---
@@ -10,10 +10,10 @@ Thursday, October 22
 in Bio-NG08
 
 ## Abstract
-TBA
+Will be announced soon.
 
 ## Speaker Bio
-TBA
+Will be announced soon.
 
 ## Recording
-TBA
+Will be announced soon.
