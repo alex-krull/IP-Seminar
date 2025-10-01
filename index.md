@@ -8,7 +8,7 @@ title: "Seminar Series"
 # Upcoming Seminars
 
 <ul>
-{% assign upcoming = site.posts | sort: "date" %}
+{% assign upcoming = site.posts | sort: "eventdate" %}
 {% for post in upcoming %}
   {% if post.eventdate > today %}
     <li>
@@ -22,7 +22,7 @@ title: "Seminar Series"
 # Past Seminars
 
 <ul>
-{% assign past = site.posts | sort: "date" | reverse %}
+{% assign past = site.posts | sort: "eventdate" | reverse %}
 {% for post in past %}
   {% if post.eventdate <= today %}
     <li>
