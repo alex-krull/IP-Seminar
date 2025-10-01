@@ -1,14 +1,15 @@
 ---
 layout: default
-title: "All Seminars"
+title: "Seminars "
 ---
 
-# All Seminars
+# Seminars
 
-{% assign curDate = site.time | date: '%s' %}
+<ul>
 {% for post in site.posts %}
-    {% assign postStartDate = post.date | date: '%s' %}
-    {% if postStartDate >= curDate %}
-        Post datas here
-    {% endif %}
+  <li>
+    <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
+</ul>
