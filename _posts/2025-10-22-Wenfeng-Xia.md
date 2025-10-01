@@ -2,7 +2,7 @@
 layout: default
 title: "Wenfeng Xia (KCL)"
 date: 2025-10-01
-eventdate: 2025-09-25
+eventdate: 2025-10-22
 speaker: "Wenfeng Xia (KCL)"
 ---
 
