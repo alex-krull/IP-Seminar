@@ -1,0 +1,10 @@
+title: "Imagine+ Seminar Series"
+description: "The seminar series of the Imagine+ Network"
+baseurl: "" # leave blank unless deploying in subpath
+url: "https://alex-krull.github.io/IP-Seminar/"
+
+theme: minima   # Jekyll's built-in theme (simple and clean)
+
+collections:
+  posts:
+    output: true

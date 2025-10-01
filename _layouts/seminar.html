@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+<p><strong>Speaker:</strong> {{ page.speaker }}</p>
+
+{{ content }}
+
+<p><a href="{{ site.baseurl }}/">Back to seminar list</a></p>
