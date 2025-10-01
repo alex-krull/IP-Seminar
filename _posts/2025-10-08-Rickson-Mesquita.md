@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Rickson Mesquita (UoB)"
-date: 2025-10-08
+eventdate: 2025-10-08
+date: 2024-10-08
 speaker: "Rickson Mesquita (UoB)"
 ---
 
