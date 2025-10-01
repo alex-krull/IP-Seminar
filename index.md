@@ -7,10 +7,10 @@ title: "Seminar Series"
 
 <ul>
 {% assign today = site.time %}
-{% assign upcoming = site.posts | where_exp: "post", "post.date > today" | sort: "date" %}
+{% assign upcoming = site.posts | where_exp: "post", "post.eventdate > today" | sort: "date" %}
 {% for post in upcoming %}
   <li>
-    <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
+    <strong>{{ post.eventdate | date: "%B %d, %Y" }}</strong>:
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
@@ -19,10 +19,10 @@ title: "Seminar Series"
 # Past Seminars
 
 <ul>
-{% assign past = site.posts | where_exp: "post", "post.date <= today" | sort: "date" | reverse %}
+{% assign past = site.posts | where_exp: "post", "post.eventdate <= today" | sort: "date" | reverse %}
 {% for post in past %}
   <li>
-    <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
+    <strong>{{ post.eventdate | date: "%B %d, %Y" }}</strong>:
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
