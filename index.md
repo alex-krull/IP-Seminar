@@ -3,14 +3,14 @@ layout: default
 title: "Seminar Series"
 ---
 
-{% assign today = site.time | date: "%Y%m%d" %}
+{% assign today = site.time %}
 
 # Upcoming Seminars
 
 <ul>
-{% for post in site.posts %}
-  {% assign post_date = post.date | date: "%Y%m%d" %}
-  {% if post_date > today %}
+{% assign upcoming = site.posts | sort: "date" %}
+{% for post in upcoming %}
+  {% if post.date > today %}
     <li>
       <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -22,9 +22,9 @@ title: "Seminar Series"
 # Past Seminars
 
 <ul>
-{% for post in site.posts %}
-  {% assign post_date = post.date | date: "%Y%m%d" %}
-  {% if post_date <= today %}
+{% assign past = site.posts | sort: "date" | reverse %}
+{% for post in past %}
+  {% if post.date <= today %}
     <li>
       <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
