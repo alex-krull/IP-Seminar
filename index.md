@@ -1,15 +1,34 @@
 ---
 layout: default
-title: "Seminars "
+title: "Seminar Series"
 ---
 
-# Seminars
+{% assign today = site.time %}
+
+# Upcoming Seminars
 
 <ul>
-{% for post in site.posts %}
-  <li>
-    <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
+{% assign upcoming = site.posts | sort: "date" %}
+{% for post in upcoming %}
+  {% if post.eventdate > today %}
+    <li>
+      <strong>{{ post.eventdate | date: "%B %d, %Y" }}</strong>:
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+# Past Seminars
+
+<ul>
+{% assign past = site.posts | sort: "date" | reverse %}
+{% for post in past %}
+  {% if post.eventdate <= today %}
+    <li>
+      <strong>{{ post.eventdate | date: "%B %d, %Y" }}</strong>:
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
 {% endfor %}
 </ul>
