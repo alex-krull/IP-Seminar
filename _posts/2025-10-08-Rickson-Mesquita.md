@@ -10,10 +10,10 @@ Thursday, October 8
 in Bio-NG08
 
 ## Abstract
-TBA
+Will be announced soon.
 
 ## Speaker Bio
-TBA
+Will be announced soon.
 
 ## Recording
-TBA
+Will be announced soon.
