@@ -9,7 +9,7 @@ title: "Seminar Series"
   {% for post in site.posts %}
     <li>
       <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
