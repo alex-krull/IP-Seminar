@@ -6,7 +6,7 @@ eventdate: 2025-11-25
 speaker: "Virginie Uhlman (EMBL-EBI / University of Zurich)"
 ---
 
-Thursday, November 25 
+Tuesday, November 25 
 in Bio-NG08
 
 ## Abstract
