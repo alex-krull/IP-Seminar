@@ -6,9 +6,9 @@ date: 2025-10-08
 speaker: "Rickson Mesquita (UoB)"
 ---
 
-# {{ page.title }}
+##{{ page.title }}##
 
-{{ page.date }}
+{{ page.date | date: "%Y-%m-%d %H:%M" }}
 in Law LT3 116
 
 
