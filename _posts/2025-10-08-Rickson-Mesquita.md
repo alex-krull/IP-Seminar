@@ -8,8 +8,8 @@ speaker: "Rickson Mesquita (UoB)"
 
 ## {{ page.title }}
 
-{{ page.date | date: "%d-%m-%Y %H:%M" }}
-in Law LT3 116
+**{{ page.date | date: "%d-%m-%Y %H:%M" }}**
+in **Law LT3 116**
 
 
 ## Abstract
