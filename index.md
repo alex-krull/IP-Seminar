@@ -3,14 +3,32 @@ layout: default
 title: "Seminar Series"
 ---
 
-# All Seminars
+{% assign today = site.time | date: "%Y%m%d" %}
+
+# Upcoming Seminars
 
 <ul>
-{% assign all_posts = site.posts | sort: "eventdate" | reverse %}
-{% for post in all_posts %}
-  <li>
-    <strong>{{ post.eventdate | date: "%B %d, %Y" }}</strong>:
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
+{% for post in site.posts %}
+  {% assign post_date = post.date | date: "%Y%m%d" %}
+  {% if post_date > today %}
+    <li>
+      <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+# Past Seminars
+
+<ul>
+{% for post in site.posts %}
+  {% assign post_date = post.date | date: "%Y%m%d" %}
+  {% if post_date <= today %}
+    <li>
+      <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
 {% endfor %}
 </ul>
