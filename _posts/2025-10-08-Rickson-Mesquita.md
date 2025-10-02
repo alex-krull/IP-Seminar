@@ -2,13 +2,13 @@
 layout: default
 title: "Rickson Mesquita (UoB): Non-Invasive Assessment of Blood Flow with Near-Infrared Light in Trauma Units"
 eventdate: 2025-10-08
-date: 2025-10-08
+date: 2025-10-08 12:00
 speaker: "Rickson Mesquita (UoB)"
 ---
 
-##{{ page.title }}##
+## {{ page.title }}
 
-{{ page.date | date: "%Y-%m-%d %H:%M" }}
+{{ page.date | date: "%d-%m-%Y %H:%M" }}
 in Law LT3 116
 
 
