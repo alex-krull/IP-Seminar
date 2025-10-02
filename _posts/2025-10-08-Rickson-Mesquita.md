@@ -6,7 +6,9 @@ date: 2025-10-08
 speaker: "Rickson Mesquita (UoB)"
 ---
 
-Wednesday, October 8 
+# {{ page.title }}
+
+{{ page.date }}
 in Law LT3 116
 
 
