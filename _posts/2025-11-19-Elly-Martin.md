@@ -6,8 +6,8 @@ eventdate: 2025-11-19
 speaker: "Elly Martin (UCL)"
 ---
 
-Thursday, November 19 
-in Bio-NG08
+Wednesday, November 19 
+in Law LT3 116
 
 ## Abstract
 Will be announced soon.
