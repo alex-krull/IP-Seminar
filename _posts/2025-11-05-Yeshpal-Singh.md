@@ -6,8 +6,8 @@ date: 2025-10-01
 speaker: "Yeshpal Singh (UoB)"
 ---
 
-Thursday, October 8 
-in Bio-NG08
+Wednesday November 5 
+in Law LT3 116
 
 ## Abstract
 Will be announced soon.
