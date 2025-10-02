@@ -8,7 +8,8 @@ title: "Seminar Series"
 # Upcoming Seminars
 
 <ul>
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: "date" %}
+{% for post in sorted_posts %}
   {% assign post_date = post.date | date: "%Y%m%d" %}
   {% if post_date > today %}
     <li>
@@ -22,7 +23,8 @@ title: "Seminar Series"
 # Past Seminars
 
 <ul>
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: "date" %}
+{% for post in sorted_posts %}
   {% assign post_date = post.date | date: "%Y%m%d" %}
   {% if post_date <= today %}
     <li>
