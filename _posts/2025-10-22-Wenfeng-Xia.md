@@ -6,8 +6,8 @@ eventdate: 2025-10-22
 speaker: "Wenfeng Xia (KCL)"
 ---
 
-Thursday, October 22 
-in Bio-NG08
+Wednesday, October 22 
+in Law LT3 116
 
 ## Abstract
 Will be announced soon.
