@@ -14,7 +14,11 @@ title: "Seminar Series"
   {% if post_date > today %}
     <li>
       <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% if post.has_link %}
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% else %}
+        {{ post.title }}
+      {% endif %}
     </li>
   {% endif %}
 {% endfor %}
@@ -29,7 +33,11 @@ title: "Seminar Series"
   {% if post_date <= today %}
     <li>
       <strong>{{ post.date | date: "%B %d, %Y" }}</strong>:
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% if post.has_link %}
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% else %}
+        {{ post.title }}
+      {% endif %}
     </li>
   {% endif %}
 {% endfor %}
