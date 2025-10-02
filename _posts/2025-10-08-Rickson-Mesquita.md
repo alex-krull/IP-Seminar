@@ -4,6 +4,7 @@ title: "Rickson Mesquita (UoB): Non-Invasive Assessment of Blood Flow with Near-
 eventdate: 2025-10-08
 date: 2025-10-08 12:00
 speaker: "Rickson Mesquita (UoB)"
+has_link: true
 ---
 
 ## {{ page.title }}
