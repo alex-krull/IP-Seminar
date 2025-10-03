@@ -1,13 +1,14 @@
 ---
 layout: default
 title: "Virginie Uhlman (EMBL-EBI / University of Zurich)"
-date: 2025-11-25
-eventdate: 2025-11-25
+date: 2025-11-26
 speaker: "Virginie Uhlman (EMBL-EBI / University of Zurich)"
 ---
 
-Tuesday, November 25 
-in Bio-NG08
+##  {{ page.speaker }}: {{ page.title }}
+
+**{{ page.date | date: "%d-%m-%Y %H:%M" }}**
+in **Law LT3 116**
 
 ## Abstract
 Will be announced soon.
