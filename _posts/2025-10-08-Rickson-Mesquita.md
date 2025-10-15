@@ -7,7 +7,7 @@ speaker: "Rickson Mesquita (UoB)"
 has_link: true
 ---
 
-## {{ page.title }}
+## {{ page.speaker }}: {{ page.title }}
 
 **{{ page.date | date: "%d-%m-%Y %H:%M" }}**
 in **Law LT3 116**
