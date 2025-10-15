@@ -27,7 +27,7 @@ title: "Seminar Series"
 # Past Seminars
 
 <ul>
-{% assign sorted_posts = site.posts | sort: "date" %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
 {% for post in sorted_posts %}
   {% assign post_date = post.date | date: "%Y%m%d" %}
   {% if post_date <= today %}
