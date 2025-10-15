@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Elly Martin (UCL)"
+title: "TBA"
 date: 2025-11-19
 eventdate: 2025-11-19
 speaker: "Elly Martin (UCL)"
