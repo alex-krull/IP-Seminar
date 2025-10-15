@@ -6,9 +6,10 @@ eventdate: 2025-10-22
 speaker: "Wenfeng Xia (KCL)"
 has_link: true
 ---
+## {{ page.title }}
 
-Wednesday, October 22 
-in Law LT3 116
+**{{ page.date | date: "%d-%m-%Y %H:%M" }}**
+in **Law LT3 116**
 
 ## Abstract
 Photoacoustic (PA) imaging is transforming the landscape of biomedical imaging by combining the rich spectroscopic contrast of light with the high spatial resolution of ultrasound. This powerful hybrid approach holds enormous potential for both preclinical research and clinical translation. A key step towards realising this potential lies in replacing bulky and costly laser systems with compact, affordable light sources such as light-emitting diodes (LEDs) and laser diodes (LDs). These advances could make PA imaging more accessible and practical in clinical settings. In this seminar, I will share our recent progress in advancing LED-based PA imaging — from reducing noise and enhancing needle visualisation to correcting acoustic aberrations and optical fluence, paving the way towards more quantitative, reliable, and clinically deployable imaging solutions.
