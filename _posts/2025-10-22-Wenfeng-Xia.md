@@ -6,7 +6,7 @@ eventdate: 2025-10-22
 speaker: "Wenfeng Xia (KCL)"
 has_link: true
 ---
-## {{ page.title }}
+## {{ page.speaker }}: {{ page.title }}
 
 **{{ page.date | date: "%d-%m-%Y %H:%M" }}**
 in **Law LT3 116**
