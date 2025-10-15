@@ -17,7 +17,7 @@ title: "Seminar Series"
       {% if post.has_link %}
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.speaker }}: {{ post.title }}</a>
       {% else %}
-        {{ post.speaker }} - {{ post.title }}
+        {{ post.speaker }}: {{ post.title }}
       {% endif %}
     </li>
   {% endif %}
@@ -36,7 +36,7 @@ title: "Seminar Series"
       {% if post.has_link %}
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.speaker }}: {{ post.title }}</a>
       {% else %}
-        {{ post.speaker }} - {{ post.title }}
+        {{ post.speaker }}: {{ post.title }}
       {% endif %}
     </li>
   {% endif %}
