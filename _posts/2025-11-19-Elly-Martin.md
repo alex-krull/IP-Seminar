@@ -6,7 +6,11 @@ eventdate: 2025-11-19
 speaker: "Elly Martin (UCL)"
 ---
 
-Wednesday, November 19 
+
+## {{ page.speaker }}: {{ page.title }}
+
+**{{ page.date | date: "%d-%m-%Y %H:%M" }}**
+
 in Law LT3 116
 
 ## Abstract
