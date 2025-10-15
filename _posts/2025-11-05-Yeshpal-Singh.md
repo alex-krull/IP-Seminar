@@ -6,7 +6,11 @@ date: 2025-11-05
 speaker: "Yeshpal Singh (UoB)"
 ---
 
-Wednesday November 5 
+
+## {{ page.speaker }}: {{ page.title }}
+
+**{{ page.date | date: "%d-%m-%Y %H:%M" }}**
+
 in Law LT3 116
 
 ## Abstract
