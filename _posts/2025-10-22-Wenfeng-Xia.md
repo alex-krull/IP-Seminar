@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wenfeng Xia (KCL): Advancing Photoacoustic Imaging with LED Excitation"
+title: "Advancing Photoacoustic Imaging with LED Excitation"
 date: 2025-10-22
 eventdate: 2025-10-22
 speaker: "Wenfeng Xia (KCL)"
