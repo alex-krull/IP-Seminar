@@ -21,5 +21,5 @@ Since the late 1970s, near-infrared light has been utilised to investigate oxyge
 Dr. Rickson Mesquita is an Associate Professor at the School of Computer Science, University of Birmingham. He earned his B.Sc. and Ph.D. in Physics from the University of Campinas, Brazil, and has also worked at the Massachusetts General Hospital and the University of Pennsylvania, USA. For over a decade, he led the Biomedical Optics Lab in Brazil and helped pioneer diffuse optical methods in neuroscience and clinical applications throughout Latin America. His research lies at the intersection of developing innovative methods for the optical quantification of biological tissues and translating these technologies for health applications, with a particular focus on applying diffuse optical techniques (such as fNIRS and DCS) to monitor brain function through haemodynamics, especially in real-world clinical settings. Dr. Mesquita is currently the fNIRS lead at the Centre for Human Brain Health (CHBH), an associate editor of Neurophotonics, a member of SPIE and Optica, and a member of the Society for Functional Near-Infrared Spectroscopy, where he currently serves as an elected member of the board of directors.
 
 ## Recording
-You can find the link [here](https://bham-ac-uk.zoom.us/rec/share/jVgp3Q4j8LXQsa93tXNhY7YSzNXHgRqCvgJRrhHvSeHNjWqCzKe1gJFuTsVzlbFA.Mw-5W84icCLaAr3v 
-Passcode: d9jg5=#n).
+You can find the link [here](https://bham-ac-uk.zoom.us/rec/share/jVgp3Q4j8LXQsa93tXNhY7YSzNXHgRqCvgJRrhHvSeHNjWqCzKe1gJFuTsVzlbFA.Mw-5W84icCLaAr3v)
+Passcode: d9jg5=#n.
