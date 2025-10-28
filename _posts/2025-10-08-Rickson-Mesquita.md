@@ -7,6 +7,7 @@ speaker: "Rickson Mesquita (UoB)"
 has_link: true
 ---
 
+
 ## {{ page.speaker }}: {{ page.title }}
 
 **{{ page.date | date: "%d-%m-%Y %H:%M" }}**
