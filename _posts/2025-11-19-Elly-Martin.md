@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Transcranial ultrasound for spatially-precise modulation of the deep brain"
-date: 2025-11-19
-eventdate: 2025-11-19
+date: 2025-11-19 12:00
 speaker: "Elly Martin (UCL)"
 has_link: true
 ---
