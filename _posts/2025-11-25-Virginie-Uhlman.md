@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "TBA"
-date: 2025-11-26
+date: 2026-02-06 12:00
 speaker: "Virginie Uhlman (EMBL-EBI / University of Zurich)"
 ---
 
