@@ -20,4 +20,4 @@ In collaborative work between researchers at UCL and the University of Oxford, w
 Elly Martin is a principal research fellow and UKRI Future Leaders Fellow in the Department of Medical Physics and Biomedical Engineering, University College London, UK.  Her research focuses on development of therapeutic uses of ultrasound for different applications including transcranial ultrasonic neuromodulation and thermal ablation of cancerous tumours, as well as investigating new uses of ultrasound, such as ultrasonic rewarming of biological materials after cryopreservation. Her work includes making quantitative comparisons between hydrophone measurements and simulations of acoustic fields, and the development and characterisation of ultrasound devices. This work underpins the development of model-based treatment planning and estimation of in situ acoustic parameters for ultrasound therapies.
 
 ## Recording
-Will be announced soon.
+[Please find the recording here.](https://bham-ac-uk.zoom.us/rec/share/AeIbJ9XKV5z9fRJrEtTsr4m8d3J93W9H5OUpNHqKOsPh4p2mvIwejCKu1ienZaX-.w8dNRQcWrOCCeIK_)
